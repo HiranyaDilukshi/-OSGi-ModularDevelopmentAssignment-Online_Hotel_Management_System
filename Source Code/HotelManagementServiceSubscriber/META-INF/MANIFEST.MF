@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: HotelManagementServiceSubscriber
+Bundle-SymbolicName: HotelManagementServiceSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: hotelmanagementservicesubscriber.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: HotelManagementServiceSubscriber
+Import-Package: foodservicepublisher, drycleaningservicepublisher, carrentalservicepublisher, bookingservicepublisher, org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

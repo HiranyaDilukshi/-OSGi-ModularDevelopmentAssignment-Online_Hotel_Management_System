@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: AirServiceSubscriber
+Bundle-SymbolicName: BookingServiceSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: bookingservicesubscriber.ServiceActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: AirServiceSubscriber
+Import-Package: bookingservicepublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
